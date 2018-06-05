@@ -38,22 +38,11 @@ module.exports.routes = {
   * not match any of those, it is matched against static assets.             *
   *                                                                          *
   ***************************************************************************/
+  'GET /api/champs': 'ChampsController.get',
+  'POST /api/champs': 'ChampsController.create',
+  'PUT /api/champs/:id' : 'ChampsController.update',
+  'DELETE /api/champs/:id' : 'ChampsController.delete',
 
-
-  //  ╔═╗╔═╗╦  ╔═╗╔╗╔╔╦╗╔═╗╔═╗╦╔╗╔╔╦╗╔═╗
-  //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
-  //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
-
-
-
-  //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗
-  //  ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗╚═╗
-  //  ╚╩╝╚═╝╚═╝╩ ╩╚═╝╚═╝╩ ╩╚═╝
-
-
-  //  ╔╦╗╦╔═╗╔═╗
-  //  ║║║║╚═╗║
-  //  ╩ ╩╩╚═╝╚═╝
 
 
 };
